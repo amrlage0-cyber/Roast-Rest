@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Roast &amp; Rest | The Sensory Alchemist</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;600;700&amp;family=Be+Vietnam+Pro:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "outline": "#82746d",
+                        "on-primary-container": "#eec1a4",
+                        "surface-container-high": "#eaead1",
+                        "on-tertiary-container": "#4b3e00",
+                        "primary": "#553722",
+                        "secondary-container": "#ffcfcb",
+                        "surface-container-lowest": "#ffffff",
+                        "primary-fixed-dim": "#eabda0",
+                        "tertiary": "#705d00",
+                        "surface-tint": "#79573f",
+                        "on-background": "#1b1d0e",
+                        "surface-dim": "#dbdcc3",
+                        "on-tertiary-fixed-variant": "#544600",
+                        "on-secondary-fixed-variant": "#5f3e3c",
+                        "on-secondary": "#ffffff",
+                        "tertiary-fixed-dim": "#e9c400",
+                        "surface-container-highest": "#e4e4cc",
+                        "on-secondary-container": "#7a5653",
+                        "secondary-fixed-dim": "#eabcb8",
+                        "inverse-primary": "#eabda0",
+                        "on-error": "#ffffff",
+                        "on-primary-fixed": "#2d1604",
+                        "tertiary-container": "#c8a900",
+                        "surface-container-low": "#f5f5dc",
+                        "on-tertiary": "#ffffff",
+                        "on-secondary-fixed": "#2e1413",
+                        "secondary": "#795553",
+                        "on-tertiary-fixed": "#221b00",
+                        "on-surface": "#1b1d0e",
+                        "error": "#ba1a1a",
+                        "error-container": "#ffdad6",
+                        "surface-bright": "#fbfbe2",
+                        "surface": "#fbfbe2",
+                        "on-primary": "#ffffff",
+                        "outline-variant": "#d4c3ba",
+                        "on-primary-fixed-variant": "#5f402a",
+                        "surface-variant": "#e4e4cc",
+                        "primary-container": "#6f4e37",
+                        "on-error-container": "#93000a",
+                        "background": "#fbfbe2",
+                        "primary-fixed": "#ffdcc6",
+                        "on-surface-variant": "#50453e",
+                        "inverse-on-surface": "#f2f2d9",
+                        "secondary-fixed": "#ffdad7",
+                        "inverse-surface": "#303221",
+                        "surface-container": "#efefd7",
+                        "tertiary-fixed": "#ffe16d"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "1rem",
+                        "lg": "2rem",
+                        "xl": "3rem",
+                        "full": "9999px"
+                    },
+                    "fontFamily": {
+                        "headline": ["Noto Serif"],
+                        "body": ["Be Vietnam Pro"],
+                        "label": ["Be Vietnam Pro"]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .editorial-shadow {
+            box-shadow: 0px 12px 32px rgba(74, 44, 42, 0.06);
+        }
+        .signature-gradient {
+            background: linear-gradient(135deg, #553722 0%, #6f4e37 100%);
+        }
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #fbfbe2; }
+        ::-webkit-scrollbar-thumb { background: #6f4e37; border-radius: 4px; }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-surface font-body text-on-surface selection:bg-tertiary/30">
+<!-- TopAppBar -->
+<nav class="fixed top-0 w-full z-50 bg-[#FBFBE2]/85 backdrop-blur-xl transition-colors duration-300">
+<div class="flex justify-between items-center px-6 py-4 max-w-full">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary" data-icon="coffee">coffee</span>
+<span class="text-xl font-bold font-headline text-primary tracking-tight">Roast &amp; Rest</span>
+</div>
+<div class="hidden md:flex gap-8 items-center">
+<a class="text-primary-container font-semibold border-b-2 border-tertiary" href="#menu">Menu</a>
+<a class="text-primary-container opacity-70 hover:opacity-100 transition-opacity" href="#about">About</a>
+<a class="text-primary-container opacity-70 hover:opacity-100 transition-opacity" href="#contact">Contact</a>
+</div>
+<button class="text-primary font-medium px-4 py-1.5 rounded-full border border-primary/20 hover:bg-primary/5 transition-all">
+                Menu
+            </button>
+</div>
+</nav>
+<main class="pt-16 pb-24 md:pb-0">
+<!-- Hero Section -->
+<section class="relative min-h-[751px] flex items-center overflow-hidden bg-primary-container">
+<div class="absolute inset-0 z-0 opacity-40">
+<img alt="" class="w-full h-full object-cover" data-alt="Close-up of artistic latte art with rich crema and steam rising in a cozy sunlit cafe interior with warm wood tones" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCZRDnrNX01fV0U5-GV_YXI3xrGPOYS7UgvVArGkXLPhjwEzGiqpK_HtBLFp2Cpkjwoj_cWemHS2HXMwKK8Y0KYBz5L4h2ZjJNAOBC4EerSW1i4G4bTtxzZpj6GE1vy1TGPceg42hbVoQxzYTPyqYnO4WsoLRtfIagROI35g1M0IA3AVhRnZx6eHBdJ9Xk42Ge_ATCXzKaF9uPz_1oxxUM9RaX8dgU8M461oSk44q1PXJV6SZRWlQSaHqwtHwvGos0uqKhF0pxlX5cm"/>
+</div>
+<div class="relative z-10 px-8 md:px-24 max-w-4xl">
+<span class="inline-block py-1 px-3 mb-6 rounded-full bg-tertiary text-on-tertiary-container font-label text-xs tracking-[0.2em] uppercase">The Sensory Alchemist</span>
+<h1 class="font-headline text-5xl md:text-7xl font-bold text-surface mb-6 leading-[1.1] tracking-tight">
+                    Your Perfect <br/><span class="italic">Cup Awaits</span>
+</h1>
+<p class="text-surface/80 text-lg md:text-xl max-w-xl mb-10 leading-relaxed">
+                    Open daily 9AM – 12AM · El Maadi, Cairo. Discover the intersection of artisanal precision and soulful warmth.
+                </p>
+<div class="flex flex-wrap gap-4">
+<button class="signature-gradient text-surface px-10 py-5 rounded-xl font-semibold editorial-shadow hover:scale-105 transition-transform">
+                        Book a Table
+                    </button>
+<button class="bg-surface/10 backdrop-blur-md border border-surface/20 text-surface px-10 py-5 rounded-xl font-semibold hover:bg-surface/20 transition-all">
+                        View Menu
+                    </button>
+</div>
+</div>
+<!-- Decorative Gold Accent -->
+<div class="absolute -right-20 -bottom-20 w-96 h-96 bg-tertiary/10 rounded-full blur-3xl"></div>
+</section>
+<!-- Gallery: Bento Grid Style -->
+<section class="py-24 px-6 md:px-12 bg-surface-container-low">
+<div class="text-center mb-16">
+<h2 class="font-headline text-3xl md:text-5xl font-semibold text-primary mb-4">Crafted Moments</h2>
+<div class="w-24 h-1 bg-tertiary mx-auto rounded-full"></div>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-8 max-w-7xl mx-auto">
+<div class="group relative overflow-hidden rounded-lg aspect-[3/4] editorial-shadow">
+<img alt="" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Overhead shot of an espresso machine portafilter with freshly ground coffee being leveled by a barista" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDuXNI82KMhbKybL4m25VoKOrbc_eE0xN8PazEGS7o6LvJBXblOIyhBZAokwF3uS1pFUhmH2Z0qsSB7j9m3W1_gZHW8ShST8yXq3Ac5MN7M_mtNhbf-RcrF31SkQkaTlP-FXUe6nyeUre33PLAXfUJnTLkSqn69nhDeJ5Phdce4A8DSir-pQHNuIH4hZFr0EaQkmSeFZBfacjIJIVYut8YU1BrZhDkpgvzEL48Oz-XXPZFo1u7v3J7076gXfYWBn8h2jVU9tmvYocvF"/>
+<div class="absolute inset-0 bg-primary-container/60 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6 backdrop-blur-[2px]">
+<p class="text-surface font-headline text-xl">The Extraction</p>
+</div>
+</div>
+<div class="group relative overflow-hidden rounded-lg aspect-square md:aspect-auto md:row-span-2 editorial-shadow">
+<img alt="" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Beautifully designed cafe interior with large windows, hanging plants, and mid-century modern furniture in warm light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCAxsVPmmVf8CL1tXgNFpWL8TZRuwFPxGwsFeZMTQnD8oBZiNAh4He17nHWoAltNlj-31JQ6P3DUIphK_KVCRVKT3NLE2pw8oZyN3KBbeT405AI-hx5mJ7zos7DI9BqwAtT2ksmlRchJQjgyECceXnwKWay0R1wQ7FhTPUeySWzmTn_5VfYua6VtbNV546ENLs1qhH-M3JOS2J-S4F-Vc_dDASQexa-ie5TO5i92tubOlW7djjAZUIUcNER6LAcTDOaPWi8cFqh3ViN"/>
+<div class="absolute inset-0 bg-primary-container/60 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6 backdrop-blur-[2px]">
+<p class="text-surface font-headline text-xl">The Sanctuary</p>
+</div>
+</div>
+<div class="group relative overflow-hidden rounded-lg aspect-square editorial-shadow">
+<img alt="" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Macro photo of pour over coffee dripping into a glass carafe with steam and golden highlights" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBwg6VPxSdFKBaZBxBNICExerbGaq5T_wnYIVOMRBWYlhzAX0uQAs6tb0WL-uVD0LlidaXiOmwlxkfZFndG96LGE58l74KNxU8C4gosmzK60GMqx7_mknyvj7bzHwvKBVXMq44i4dXTgwDP0prAad7uUuiDiVnDn34w_0OTUvVhEP24PP_tkxYhhcTL6-m6PmNLHEaiU4GJUohG9s6y_8AYUItNoCgaw1KJyRXVhyTUYt0BmrMYRlEpvktAnRwIKnYufC3CjfY6BC27"/>
+<div class="absolute inset-0 bg-primary-container/60 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6 backdrop-blur-[2px]">
+<p class="text-surface font-headline text-xl">V60 Ritual</p>
+</div>
+</div>
+<div class="group relative overflow-hidden rounded-lg aspect-[4/3] editorial-shadow">
+<img alt="" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Artisanal pastry croissant on a ceramic plate next to a cup of black coffee on a wooden table" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB_kCONEsPf9k5WJrHULKu6d5J5mzBklgzslw1YhfnpTaiCbCDzajbCU-rCBz1--43dG57VthFwGjMYhSbM_CMYKPwFMw4RBc6aXJN0oExINVIfN9GGUCoNMQayuxec6DWHtgHiWh_2nUrfxrT1pLStkVI_Lar0bsXcJM7ZNmUNga4z2kbhvyYzk30LQjV83Fj8DXFlLE5chLHx3TiEJYMHaTK7UaH4oWt0zspgnqrF08r_B96qUp8ZZ308quTystqHoFLs0rT10873"/>
+<div class="absolute inset-0 bg-primary-container/60 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6 backdrop-blur-[2px]">
+<p class="text-surface font-headline text-xl">Morning Rest</p>
+</div>
+</div>
+<div class="group relative overflow-hidden rounded-lg aspect-square editorial-shadow">
+<img alt="" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Close-up of a rustic coffee bag and roasted coffee beans scattered on a textured burlap surface" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAItLSjq47bo6HKm3AzgvT2BYypXnYm9cmBwcCkMWNTnCFZg_HSc2k8FVq3y5QUUWtPsDHQhU8b2iQdkkTa5gQk3Z1D-Ri8KTN0hWOGdEhgTjcWowN7KuDr0OB5XMWaxzGo9SKohO_dJwYbKUmJG1seAunKnCjNVulT6zPBL7nj5ruLvWwFYlvVAb34_GdV35uUTpEWuyxKQD9lvIeN8r2_QyS-m1RPdTBM94OXCFqtzj6UVLMgC3ZP6ruYhn2RNn-pNMQxUvxFrQ9y"/>
+<div class="absolute inset-0 bg-primary-container/60 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6 backdrop-blur-[2px]">
+<p class="text-surface font-headline text-xl">Direct Origin</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Menu Section -->
+<section class="py-24 px-6 md:px-12 bg-surface" id="menu">
+<div class="max-w-6xl mx-auto">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-4">
+<div>
+<p class="text-tertiary font-label text-sm tracking-widest uppercase mb-2">Curated Selections</p>
+<h2 class="font-headline text-4xl md:text-5xl font-bold text-primary">The Alchemy Menu</h2>
+</div>
+<div class="flex gap-4">
+<button class="pb-2 text-primary font-semibold border-b-2 border-tertiary">Classic</button>
+<button class="pb-2 text-primary/50 font-medium hover:text-primary transition-colors">New Arrivals</button>
+</div>
+</div>
+<div class="grid md:grid-cols-2 gap-12">
+<!-- New Arrivals Badge & Featured Card -->
+<div class="space-y-8">
+<div class="p-8 rounded-lg bg-surface-container-low outline-variant/15 border border-dashed border-primary/20 relative group overflow-hidden">
+<div class="absolute top-4 right-4 bg-tertiary text-on-tertiary-fixed font-label text-[10px] px-3 py-1 rounded-full uppercase tracking-tighter z-10">New Arrival</div>
+<div class="flex justify-between items-start mb-4">
+<div>
+<h3 class="font-headline text-2xl text-primary mb-1">Honey Lavender Latte</h3>
+<p class="text-primary-container/70 text-sm italic">Floral notes, local honey, velvety micro-foam</p>
+</div>
+<span class="text-2xl font-bold text-primary">75 EGP</span>
+</div>
+<div class="flex gap-2">
+<span class="px-3 py-1 bg-surface-container-highest text-primary-container text-xs rounded-md">Floral</span>
+<span class="px-3 py-1 bg-surface-container-highest text-primary-container text-xs rounded-md">Sweet</span>
+</div>
+</div>
+<div class="space-y-8">
+<div class="flex justify-between items-end border-b border-outline-variant/30 pb-4 group">
+<div class="max-w-[70%]">
+<h4 class="font-headline text-xl text-primary group-hover:text-tertiary transition-colors">V60 Ethiopia Sidamo</h4>
+<p class="text-on-surface-variant text-sm mt-1">Light roast with notes of jasmine and peach.</p>
+</div>
+<span class="font-bold text-primary text-lg">90 EGP</span>
+</div>
+<div class="flex justify-between items-end border-b border-outline-variant/30 pb-4 group">
+<div class="max-w-[70%]">
+<h4 class="font-headline text-xl text-primary group-hover:text-tertiary transition-colors">Cortado</h4>
+<p class="text-on-surface-variant text-sm mt-1">Perfect 1:1 balance of espresso and silky milk.</p>
+</div>
+<span class="font-bold text-primary text-lg">55 EGP</span>
+</div>
+</div>
+</div>
+<div class="space-y-8">
+<div class="flex justify-between items-end border-b border-outline-variant/30 pb-4 group">
+<div class="max-w-[70%]">
+<h4 class="font-headline text-xl text-primary group-hover:text-tertiary transition-colors">Flat White</h4>
+<p class="text-on-surface-variant text-sm mt-1">Double shot espresso with thin, creamy micro-foam.</p>
+</div>
+<span class="font-bold text-primary text-lg">65 EGP</span>
+</div>
+<div class="flex justify-between items-end border-b border-outline-variant/30 pb-4 group">
+<div class="max-w-[70%]">
+<h4 class="font-headline text-xl text-primary group-hover:text-tertiary transition-colors">Iced Pistachio Cream</h4>
+<p class="text-on-surface-variant text-sm mt-1">Cold brew topped with homemade pistachio foam.</p>
+</div>
+<span class="font-bold text-primary text-lg">85 EGP</span>
+</div>
+<div class="flex justify-between items-end border-b border-outline-variant/30 pb-4 group">
+<div class="max-w-[70%]">
+<h4 class="font-headline text-xl text-primary group-hover:text-tertiary transition-colors">Traditional Matcha</h4>
+<p class="text-on-surface-variant text-sm mt-1">Ceremonial grade Japanese matcha whisked to perfection.</p>
+</div>
+<span class="font-bold text-primary text-lg">95 EGP</span>
+</div>
+</div>
+</div>
+<div class="mt-16 text-center">
+<button class="bg-primary text-surface px-8 py-4 rounded-xl font-medium border border-primary/20 hover:bg-primary-container transition-all">
+                        Download Full PDF Menu
+                    </button>
+</div>
+</div>
+</section>
+<!-- About Section -->
+<section class="bg-primary text-surface py-24 relative overflow-hidden" id="about">
+<div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
+<div class="relative">
+<img alt="" class="rounded-lg editorial-shadow w-full aspect-square object-cover -rotate-2 scale-105" data-alt="Interior of a modern Egyptian cafe with local art on the walls and minimalist decor in soft morning light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuByDlmrW1SNSmIfUaG4BIIfW9R9EvVro3GdB1HqKzVs9XatKBoFRdGkItAJ27vuwD3JaP48T5fPLs9HjvDLCInzfc6fCCDrP1tEntW3q17IbO9INdHDZ1_QuiqMNQle2lZjwdzcHebXZ9ezGcSyvq4uhIbK1uWgwZHnu2_dMY8UlkLfb2x4sjHgj1UpI_cGaRdYDhbMUezwC_zHbvM0K1rp-77L9CiAuj93KfPdC1yBinA7IFuXVPHXGLjmjOpGN_9kkTHf9tdNy0M4"/>
+<div class="absolute -bottom-6 -right-6 bg-tertiary text-on-tertiary-fixed-variant p-6 rounded-lg editorial-shadow hidden md:block">
+<p class="font-headline text-3xl font-bold">12+</p>
+<p class="text-sm font-label uppercase">Signature Blends</p>
+</div>
+</div>
+<div class="space-y-6">
+<h2 class="font-headline text-4xl md:text-5xl font-bold leading-tight">The Rest in <br/>Every Roast</h2>
+<p class="text-surface/80 text-lg leading-relaxed">
+                        In the heart of El Maadi, we’ve created a space where time slows down. Roast &amp; Rest isn't just about the caffeine; it's about the chemistry of a perfect morning and the tranquility of a late-night thought.
+                    </p>
+<div class="space-y-4 pt-4">
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-tertiary" data-icon="location_on">location_on</span>
+<div>
+<h4 class="font-bold text-lg">Our Nest</h4>
+<p class="text-surface/70">Mostafa Kamel St, El Maadi (near El Maadi Metro), Cairo, Egypt.</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-tertiary" data-icon="schedule">schedule</span>
+<div>
+<h4 class="font-bold text-lg">Brewing Hours</h4>
+<p class="text-surface/70">Daily: 9:00 AM – 12:00 AM</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="absolute top-0 left-0 w-64 h-64 bg-surface/5 rounded-full blur-[100px]"></div>
+</section>
+<!-- Suggestions Form -->
+<section class="py-24 px-6 md:px-12 bg-surface-container-low" id="contact">
+<div class="max-w-3xl mx-auto text-center mb-12">
+<h2 class="font-headline text-3xl md:text-4xl font-semibold text-primary mb-4">Share Your Idea ☕</h2>
+<p class="text-on-surface-variant">We believe the best flavors are born from collective inspiration. What's your dream brew?</p>
+</div>
+<div class="max-w-2xl mx-auto bg-surface p-8 md:p-12 rounded-lg editorial-shadow">
+<form class="space-y-8">
+<div class="grid md:grid-cols-2 gap-8">
+<div class="space-y-2">
+<label class="font-label text-xs uppercase tracking-widest text-primary-container font-semibold">Your Name</label>
+<input class="w-full bg-surface-container-highest border-none rounded-lg p-4 focus:ring-2 focus:ring-tertiary/20 placeholder:text-primary/30 transition-all" placeholder="Brew Enthusiast" type="text"/>
+</div>
+<div class="space-y-2">
+<label class="font-label text-xs uppercase tracking-widest text-primary-container font-semibold">Contact Detail</label>
+<input class="w-full bg-surface-container-highest border-none rounded-lg p-4 focus:ring-2 focus:ring-tertiary/20 placeholder:text-primary/30 transition-all" placeholder="hello@roastrest.com" type="email"/>
+</div>
+</div>
+<div class="space-y-2">
+<label class="font-label text-xs uppercase tracking-widest text-primary-container font-semibold">The Suggestion</label>
+<textarea class="w-full bg-surface-container-highest border-none rounded-lg p-4 focus:ring-2 focus:ring-tertiary/20 placeholder:text-primary/30 transition-all" placeholder="I'd love to see a Cardamom infused cold brew..." rows="4"></textarea>
+</div>
+<button class="w-full signature-gradient text-surface py-5 rounded-xl font-bold tracking-widest uppercase text-sm hover:scale-[1.02] active:scale-95 transition-all">
+                        Submit Your Vision
+                    </button>
+</form>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-container-low w-full pt-12 pb-32 md:pb-12 px-8 flex flex-col items-center text-center space-y-6">
+<div class="font-headline text-2xl font-bold text-primary">Roast &amp; Rest</div>
+<div class="flex flex-wrap justify-center gap-8 font-body text-sm font-medium">
+<a class="text-primary-container opacity-80 hover:text-primary transition-all underline decoration-tertiary/30 underline-offset-4" href="#menu">Menu</a>
+<a class="text-primary-container opacity-80 hover:text-primary transition-all underline decoration-tertiary/30 underline-offset-4" href="#about">About</a>
+<a class="text-primary-container opacity-80 hover:text-primary transition-all underline decoration-tertiary/30 underline-offset-4" href="#contact">Contact</a>
+<a class="text-primary-container opacity-80 hover:text-primary transition-all underline decoration-tertiary/30 underline-offset-4" href="#">Privacy</a>
+</div>
+<div class="flex gap-6 pt-4">
+<span class="material-symbols-outlined text-primary-container cursor-pointer hover:text-tertiary transition-colors" data-icon="nest_eco_leaf">nest_eco_leaf</span>
+<span class="material-symbols-outlined text-primary-container cursor-pointer hover:text-tertiary transition-colors" data-icon="coffee_maker">coffee_maker</span>
+<span class="material-symbols-outlined text-primary-container cursor-pointer hover:text-tertiary transition-colors" data-icon="psychology">psychology</span>
+</div>
+<p class="text-on-surface-variant text-xs mt-8 opacity-60">© 2024 Roast &amp; Rest. The Sensory Alchemist.</p>
+</footer>
+<!-- BottomNavBar (Mobile Only) -->
+<nav class="md:hidden fixed bottom-0 left-0 w-full flex justify-around items-center px-4 pb-4 pt-2 bg-[#FBFBE2] z-50 rounded-t-[3rem] border-t border-primary/15 shadow-[0px_-12px_32px_rgba(74,44,42,0.06)]">
+<a class="flex flex-col items-center justify-center bg-primary-container text-surface rounded-full px-5 py-3 scale-110" href="#">
+<span class="material-symbols-outlined" data-icon="home" style="font-variation-settings: 'FILL' 1;">home</span>
+<span class="text-[10px] uppercase tracking-widest font-semibold mt-1">Home</span>
+</a>
+<a class="flex flex-col items-center justify-center text-primary-container opacity-70 hover:opacity-100 transition-opacity" href="#menu">
+<span class="material-symbols-outlined" data-icon="menu_book">menu_book</span>
+<span class="text-[10px] uppercase tracking-widest font-semibold mt-1">Menu</span>
+</a>
+<a class="flex flex-col items-center justify-center text-primary-container opacity-70 hover:opacity-100 transition-opacity" href="#about">
+<span class="material-symbols-outlined" data-icon="info">info</span>
+<span class="text-[10px] uppercase tracking-widest font-semibold mt-1">About</span>
+</a>
+<a class="flex flex-col items-center justify-center text-primary-container opacity-70 hover:opacity-100 transition-opacity" href="#contact">
+<span class="material-symbols-outlined" data-icon="mail">mail</span>
+<span class="text-[10px] uppercase tracking-widest font-semibold mt-1">Contact</span>
+</a>
+</nav>
+</body></html>
